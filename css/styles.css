@@ -1,0 +1,161 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+}
+
+h1 {
+    font-family: "Montserrat-Black", sans-serif;
+    font-size: 2.0rem;
+    line-height: 1.5;
+    font-weight: 850;
+}
+
+p {
+    color: #393e46;
+}
+
+.navbar {
+    padding: 0 0 5rem;
+}
+
+.navbar-brand {
+    font-family: 'Sacramento', cursive;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat-light";
+}
+
+#title {
+    padding: 3% 9% 1%;
+    background-color: #e6739f;
+    text-align: left;
+}
+
+.title-image {
+    width: 85%;
+    margin-left: 4rem;
+    margin-bottom: 5rem;
+}
+
+
+/* HOME */
+
+#home {
+    background-color: #ffabe1;
+    position: relative;
+}
+
+.home-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.home-box {
+    padding: 5%;
+    background-color: #ffabe1;
+}
+
+.home-icon {
+    color: #B76E79;
+}
+
+.home-icon:hover {
+    color: red;
+}
+
+
+/* ABOUT */
+
+#about {
+    padding: 5% 13%;
+    background-color: #bce6eb;
+    color: #000;
+}
+
+.about-image {
+    width: 65%;
+    height: 65%;
+    /* border-radius: 100%; */
+    margin: 20px;
+}
+
+.about-text {
+    font-size: 1.75rem;
+    line-height: 1.5;
+    font-weight: 600;
+}
+
+
+/* CTA */
+
+#cta {
+    background-color: #e0dede;
+    padding: 1rem 2rem;
+}
+
+.links {
+    color: #e6739f;
+    text-decoration: none;
+}
+
+.links:hover {
+    color: black;
+}
+
+
+/* FOOTER */
+
+.top {
+    color: rgb(128, 223, 240);
+    position: absolute;
+    left: 90%;
+    font-size: 1.5rem;
+}
+
+.top:hover {
+    color: darkblue;
+}
+
+#footer {
+    padding: 1% 15%;
+    background-color: #edd2d2d2;
+}
+
+.location {
+    color: lightslategray;
+    margin-bottom: 1rem;
+}
+
+.location:hover {
+    color: black;
+}
+
+.icon-section {
+    margin: 0.89rem;
+    /* color: rgb(128, 223, 240); */
+}
+
+.icon-section:hover {
+    color: darkblue;
+}
+
+
+/* mobile responsiveness */
+
+@media(max-width: 1028px) {
+    #title {
+        text-align: center;
+    }
+    .title-image {
+        position: static;
+        transform: rotate(0);
+    }
+}
